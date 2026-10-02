@@ -1,0 +1,19 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "yapper-gd", "yapper-gd.csproj", "{BC65B707-C5C8-4789-9C06-3FF3D0874415}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+	Debug|Any CPU = Debug|Any CPU
+	ExportDebug|Any CPU = ExportDebug|Any CPU
+	ExportRelease|Any CPU = ExportRelease|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC65B707-C5C8-4789-9C06-3FF3D0874415}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC65B707-C5C8-4789-9C06-3FF3D0874415}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC65B707-C5C8-4789-9C06-3FF3D0874415}.ExportDebug|Any CPU.ActiveCfg = ExportDebug|Any CPU
+		{BC65B707-C5C8-4789-9C06-3FF3D0874415}.ExportDebug|Any CPU.Build.0 = ExportDebug|Any CPU
+		{BC65B707-C5C8-4789-9C06-3FF3D0874415}.ExportRelease|Any CPU.ActiveCfg = ExportRelease|Any CPU
+		{BC65B707-C5C8-4789-9C06-3FF3D0874415}.ExportRelease|Any CPU.Build.0 = ExportRelease|Any CPU
+	EndGlobalSection
+EndGlobal
