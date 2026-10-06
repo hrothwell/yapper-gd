@@ -10,7 +10,7 @@ using Google.Protobuf;
 /**
 	YouTube API refernce: https://developers.google.com/youtube/v3/live/docs/liveChatMessages/streamList
 	
-	Opens a stream to a youtube chat. Raw responses are emitted as json through [MessageReceived]. For structure of response see reference. 
+	Opens a stream to a youtube chat. Response `items` array values are emitted as json independently through [MessageReceived]. For structure of response see reference.
 
 	[ApiKey] and [LiveChatId] must be present. [ApiKey] is strongly suggested to be loaded via some config file. DO NOT STORE THEM IN VERSION CONTROL I WILL STEAL THEM TO TEACH YOU A LESSON. 
 	
@@ -30,11 +30,14 @@ public partial class YouTubeChatStream : Node
 	[Signal]
 	public delegate void StoppedEventHandler();
 
-	[Export]
 	public string ApiKey = "";
 
 	[Export]
 	public string LiveChatId = "";
+
+	// Messages older than this many seconds will be skipped / not emitted
+	[Export]
+	public int MessageCutoffSeconds = 30;
 
 	private GrpcChannel _chat_channel;
 	private CancellationTokenSource _cancellation_token_source;
@@ -70,14 +73,9 @@ public partial class YouTubeChatStream : Node
 	{
 		try
 		{
-			GD.Print("Enter gRPC");
 			var credentials = new GrpcChannelOptions { Credentials = ChannelCredentials.SecureSsl };
-			GD.Print("Credentials build gRPC");
 			_chat_channel = GrpcChannel.ForAddress("dns:///youtube.googleapis.com:443", credentials);
-			GD.Print("channel built gRPC");
-
 			var client = new V3DataLiveChatMessageService.V3DataLiveChatMessageServiceClient(_chat_channel);
-			GD.Print("client built gRPC");
 			String nextPage = null;
 
 			while(true)
@@ -95,17 +93,25 @@ public partial class YouTubeChatStream : Node
 				{
 					request.PageToken = nextPage;
 				}
-
-				GD.Print("Request built");
-				GD.Print($"APIKEY: {ApiKey}");
 				
 				using var call = client.StreamList(request: request, headers: [new Metadata.Entry("x-goog-api-key", ApiKey)], cancellationToken: token);
 				await foreach (var response in call.ResponseStream.ReadAllAsync(token))
 				{
-					string jsonStr = JsonFormatter.Default.Format(response);
+					DateTimeOffset cutoffTime = DateTimeOffset.Now.AddSeconds(-1 * MessageCutoffSeconds);
+					foreach (var item in response.Items)
+					{
+						if (DateTimeOffset.TryParse(item.Snippet.PublishedAt, out DateTimeOffset dto))
+						{
+							if (dto.CompareTo(cutoffTime) >= 0)
+							{
+								string jsonStr = JsonFormatter.Default.Format(item);
+								CallDeferred(MethodName.EmitSignal, SignalName.MessageReceived, jsonStr);
+							}
+						}
+					}
 					nextPage = response.NextPageToken;
-					CallDeferred(MethodName.EmitSignal, SignalName.MessageReceived, jsonStr);
 				}
+				if (nextPage == null) break;
 			}
 		}
 		catch (Exception e)
@@ -113,12 +119,11 @@ public partial class YouTubeChatStream : Node
 			GD.PrintErr($"gRPC Stream Error: {e.Message} {e.StackTrace}");
 		}
 
-		GD.Print("Exiting task");
+		GD.Print("Exiting polling task");
 	}
 
 	 public override void _ExitTree()
 	{
-		// Clean up connection when node leaves the scene tree
 		_cancellation_token_source?.Cancel();
 		_chat_channel?.Dispose();
 	}
