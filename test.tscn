@@ -1,12 +1,12 @@
 [gd_scene format=3 uid="uid://cuvs53jh1de6i"]
 
 [ext_resource type="Script" uid="uid://cjqem2gt4hoc1" path="res://test.gd" id="1_8uh7m"]
-[ext_resource type="Script" uid="uid://dpbla7217im3w" path="res://addons/yapper-gd/youtube/YouTubeChatStream.cs" id="2_8uh7m"]
+[ext_resource type="Script" uid="uid://dpbla7217im3w" path="res://addons/yapper-gd/YouTubeChatStream.cs" id="2_8uh7m"]
 
 [node name="Test" type="Node2D" unique_id=342773095]
 script = ExtResource("1_8uh7m")
 
-[node name="YouTubeChatStream" type="Node" parent="." unique_id=2096492018]
+[node name="YouTubeChatStream" type="Node" parent="." unique_id=798269080]
 unique_name_in_owner = true
 script = ExtResource("2_8uh7m")
 metadata/_custom_type_script = "uid://dpbla7217im3w"
