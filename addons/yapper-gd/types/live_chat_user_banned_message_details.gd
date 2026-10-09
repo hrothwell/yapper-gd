@@ -11,9 +11,10 @@ var ban_duration_seconds: int
 static func from_dict(dict: Dictionary) -> LiveChatUserBannedMessageDetails:
 	var result := LiveChatUserBannedMessageDetails.new()
 	result.ban_duration_seconds = dict.get("banDurationSeconds")
-	result.ban_type = BanType.get(BanType.keys().find(dict.get("banType", "PERMANENT")))
+	result.ban_type = BanType.get(dict.get("banType", "PERMANENT"))
 	
-	result.banned_user_details = null
+	if dict.has("bannedUserDetails"):
+		result.banned_user_details = ChannelProfileDetails.from_dict(dict.get("bannedUserDetails"))
 	return result
 
 class ChannelProfileDetails extends RefCounted:

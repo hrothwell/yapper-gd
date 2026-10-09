@@ -9,6 +9,7 @@ public partial class TextMessageChatGenerator : LiveChatMessageGenerator
 	override public String Get()
 	{
 		LiveChatMessage msg = Create();
+		msg.Snippet.Type = LiveChatMessageSnippet.Types.TypeWrapper.Types.Type.TextMessageEvent;
 
 		msg.Snippet.TextMessageDetails = new LiveChatTextMessageDetails()
 		{

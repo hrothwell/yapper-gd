@@ -10,6 +10,8 @@ public partial class SuperChatGenerator : LiveChatMessageGenerator
 	{
 		LiveChatMessage msg = Create();
 
+		msg.Snippet.Type = LiveChatMessageSnippet.Types.TypeWrapper.Types.Type.SuperChatEvent;
+
 		msg.Snippet.SuperChatDetails = new LiveChatSuperChatDetails()
 		{
 		  AmountMicros = 100,

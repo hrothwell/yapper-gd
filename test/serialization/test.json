@@ -1,0 +1,25 @@
+{
+    "snippet": {
+        "publishedAt": "10/8/2026 9:44:02 PM",
+        "displayMessage": "display message",
+        "hasDisplayContent": true,
+        "userBannedDetails": {
+            "bannedUserDetails": {
+                "channelUrl": "channel url",
+                "displayName": "display name",
+                "profileImageUrl": "profile image url",
+                "channelId": "channel id"
+            },
+            "banType": "PERMANENT",
+            "banDurationSeconds": "100"
+        },
+        "liveChatId": "live chat id",
+        "authorChannelId": "author channel id"
+    },
+    "authorDetails": {
+        "displayName": "display name",
+        "profileImageUrl": "profile image url"
+    },
+    "id": "id",
+    "etag": "etag"
+}
