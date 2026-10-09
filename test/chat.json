@@ -1,0 +1,510 @@
+{
+    "etag": "41wALWwjznKUOP2APkzAJUVTKrQ",
+    "pageInfo": {
+        "totalResults": 75,
+        "resultsPerPage": 20
+    },
+    "items": [
+        {
+            "snippet": {
+                "type": "TEXT_MESSAGE_EVENT",
+                "publishedAt": "2026-10-06T00:58:50.884909+00:00",
+                "displayMessage": "is garret mean't to be bruno mars",
+                "hasDisplayContent": true,
+                "textMessageDetails": {
+                    "messageText": "is garret mean't to be bruno mars"
+                },
+                "liveChatId": "Cg0KC1pCb1RwODVsVFlzKicKGFVDY0hIa0o5OGVTZmE1YWowbWRUd3dMURILWkJvVHA4NWxUWXM",
+                "authorChannelId": "UCec15cndJ6c8nmFJK12VqiA"
+            },
+            "authorDetails": {
+                "isVerified": false,
+                "isChatOwner": false,
+                "isChatSponsor": false,
+                "isChatModerator": false,
+                "channelUrl": "http://www.youtube.com/channel/UCec15cndJ6c8nmFJK12VqiA",
+                "displayName": "@scrappydoobydoo",
+                "profileImageUrl": "https://yt3.ggpht.com/Wvlg8-EWsd-N0D1alhT5PoGdoZlaf_uRw7Cyqjdv1OfZZdVp8jKCd_oRDKOcAWPXYvbFBuda=s88-c-k-c0x00ffffff-no-rj",
+                "channelId": "UCec15cndJ6c8nmFJK12VqiA"
+            },
+            "id": "LCC.EhwKGkNOUFczWU9ZcEpjREZYU0pMUWtkaVowWE1B",
+            "etag": "XXeg5CbOCqmfpisuRAvENN5V1Zg"
+        },
+        {
+            "snippet": {
+                "type": "TEXT_MESSAGE_EVENT",
+                "publishedAt": "2026-10-06T00:58:51.482205+00:00",
+                "displayMessage": "give me tone! :_wispylaugh:",
+                "hasDisplayContent": true,
+                "textMessageDetails": {
+                    "messageText": "give me tone! :_wispylaugh:"
+                },
+                "liveChatId": "Cg0KC1pCb1RwODVsVFlzKicKGFVDY0hIa0o5OGVTZmE1YWowbWRUd3dMURILWkJvVHA4NWxUWXM",
+                "authorChannelId": "UC6isiEhf0OkOWwa5Fg4WoWg"
+            },
+            "authorDetails": {
+                "isVerified": false,
+                "isChatOwner": false,
+                "isChatSponsor": true,
+                "isChatModerator": false,
+                "channelUrl": "http://www.youtube.com/channel/UC6isiEhf0OkOWwa5Fg4WoWg",
+                "displayName": "@choirMan64",
+                "profileImageUrl": "https://yt3.ggpht.com/Q5M_mI1BdojvT-qB0t1qW_bJDLaYt9DERVMao1nbb0qbqdUE1aoJfmEFYPPcaKeCMz5PefE-tsk=s88-c-k-c0x00ffffff-no-rj",
+                "channelId": "UC6isiEhf0OkOWwa5Fg4WoWg"
+            },
+            "id": "LCC.EhwKGkNOdTZnb1NZcEpjREZjM2JQd1Fka204NVdn",
+            "etag": "QvvblppomJ8PA5JiEKrWMorzN0s"
+        },
+        {
+            "snippet": {
+                "type": "TEXT_MESSAGE_EVENT",
+                "publishedAt": "2026-10-06T00:58:51.565788+00:00",
+                "displayMessage": "Have tone, taking the shot",
+                "hasDisplayContent": true,
+                "textMessageDetails": {
+                    "messageText": "Have tone, taking the shot"
+                },
+                "liveChatId": "Cg0KC1pCb1RwODVsVFlzKicKGFVDY0hIa0o5OGVTZmE1YWowbWRUd3dMURILWkJvVHA4NWxUWXM",
+                "authorChannelId": "UCIrEUBHxSGrtSi7u57E4XNQ"
+            },
+            "authorDetails": {
+                "isVerified": false,
+                "isChatOwner": false,
+                "isChatSponsor": false,
+                "isChatModerator": false,
+                "channelUrl": "http://www.youtube.com/channel/UCIrEUBHxSGrtSi7u57E4XNQ",
+                "displayName": "@zergling67",
+                "profileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_nxU-u85B7cAWrZ78k5xo-fy3c-BnptWniPvoKwqfo=s88-c-k-c0x00ffffff-no-rj",
+                "channelId": "UCIrEUBHxSGrtSi7u57E4XNQ"
+            },
+            "id": "LCC.EhwKGkNOSEhoNFNZcEpjREZhaC1UQWdkcVlFZzBn",
+            "etag": "0tOX23nrmv41cCfbwTizwpTbjfY"
+        },
+        {
+            "snippet": {
+                "type": "TEXT_MESSAGE_EVENT",
+                "publishedAt": "2026-10-06T00:58:53.187011+00:00",
+                "displayMessage": "Minto's got the high ground I mean sky",
+                "hasDisplayContent": true,
+                "textMessageDetails": {
+                    "messageText": "Minto's got the high ground I mean sky"
+                },
+                "liveChatId": "Cg0KC1pCb1RwODVsVFlzKicKGFVDY0hIa0o5OGVTZmE1YWowbWRUd3dMURILWkJvVHA4NWxUWXM",
+                "authorChannelId": "UCTSpi2tpFKWJ-Kf6elkAXSQ"
+            },
+            "authorDetails": {
+                "isVerified": false,
+                "isChatOwner": false,
+                "isChatSponsor": true,
+                "isChatModerator": false,
+                "channelUrl": "http://www.youtube.com/channel/UCTSpi2tpFKWJ-Kf6elkAXSQ",
+                "displayName": "@AckJammer",
+                "profileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_kUS4ubNFmyX6nCEQkRBCrjSc90-3Mpi2aSPY9Yo219oQ=s88-c-k-c0x00ffffff-no-rj",
+                "channelId": "UCTSpi2tpFKWJ-Kf6elkAXSQ"
+            },
+            "id": "LCC.EhwKGkNOS0g2b1NZcEpjREZXYktMUUFkeHo0N2FB",
+            "etag": "_dAG-11vs9ckwJSMu_m86z_ZQ6w"
+        },
+        {
+            "snippet": {
+                "type": "TEXT_MESSAGE_EVENT",
+                "publishedAt": "2026-10-06T00:58:56.530661+00:00",
+                "displayMessage": "that's why tone is there hehe",
+                "hasDisplayContent": true,
+                "textMessageDetails": {
+                    "messageText": "that's why tone is there hehe"
+                },
+                "liveChatId": "Cg0KC1pCb1RwODVsVFlzKicKGFVDY0hIa0o5OGVTZmE1YWowbWRUd3dMURILWkJvVHA4NWxUWXM",
+                "authorChannelId": "UC1lB4Yiw16PTfxvIFEtoZcA"
+            },
+            "authorDetails": {
+                "isVerified": false,
+                "isChatOwner": false,
+                "isChatSponsor": true,
+                "isChatModerator": false,
+                "channelUrl": "http://www.youtube.com/channel/UC1lB4Yiw16PTfxvIFEtoZcA",
+                "displayName": "@399-CY",
+                "profileImageUrl": "https://yt3.ggpht.com/1YV0Mxvo55AHAOzupF-SgL9NGDMC3cck7gdJ9IRQx2tZTiA6kKRscXPFguylnlSTw5IXOjmVrw=s88-c-k-c0x00ffffff-no-rj",
+                "channelId": "UC1lB4Yiw16PTfxvIFEtoZcA"
+            },
+            "id": "LCC.EhwKGkNKX010b2FZcEpjREZkd19yUVlkNE5NRENn",
+            "etag": "SYQqZRziw4_QBeT8Oju-QeGHFoo"
+        },
+        {
+            "snippet": {
+                "type": "TEXT_MESSAGE_EVENT",
+                "publishedAt": "2026-10-06T00:58:58.475976+00:00",
+                "displayMessage": "No it",
+                "hasDisplayContent": true,
+                "textMessageDetails": {
+                    "messageText": "No it"
+                },
+                "liveChatId": "Cg0KC1pCb1RwODVsVFlzKicKGFVDY0hIa0o5OGVTZmE1YWowbWRUd3dMURILWkJvVHA4NWxUWXM",
+                "authorChannelId": "UCSMQtefcWoJ1AUffevwJrlw"
+            },
+            "authorDetails": {
+                "isVerified": false,
+                "isChatOwner": false,
+                "isChatSponsor": true,
+                "isChatModerator": false,
+                "channelUrl": "http://www.youtube.com/channel/UCSMQtefcWoJ1AUffevwJrlw",
+                "displayName": "@Resting.Glitch.Face2629",
+                "profileImageUrl": "https://yt3.ggpht.com/fvrBmTG2ODAS3b5q1Cz91-aZdyET_qkcrj5bFOXNQNCBdO6f_2iUzzhYgVXPJqiS6zcxoU8Z=s88-c-k-c0x00ffffff-no-rj",
+                "channelId": "UCSMQtefcWoJ1AUffevwJrlw"
+            },
+            "id": "LCC.EhwKGkNNT0ZyWWVZcEpjREZkM25jZ2tkWjcwb3pn",
+            "etag": "_Mn3gZx4JYQ39hfbUlMOcu6BKeY"
+        },
+        {
+            "snippet": {
+                "type": "TEXT_MESSAGE_EVENT",
+                "publishedAt": "2026-10-06T00:58:58.841808+00:00",
+                "displayMessage": "Too much talk in the air",
+                "hasDisplayContent": true,
+                "textMessageDetails": {
+                    "messageText": "Too much talk in the air"
+                },
+                "liveChatId": "Cg0KC1pCb1RwODVsVFlzKicKGFVDY0hIa0o5OGVTZmE1YWowbWRUd3dMURILWkJvVHA4NWxUWXM",
+                "authorChannelId": "UC-c4v27-3H_rZJW_jk3jPJw"
+            },
+            "authorDetails": {
+                "isVerified": false,
+                "isChatOwner": false,
+                "isChatSponsor": false,
+                "isChatModerator": false,
+                "channelUrl": "http://www.youtube.com/channel/UC-c4v27-3H_rZJW_jk3jPJw",
+                "displayName": "@krzbrew",
+                "profileImageUrl": "https://yt3.ggpht.com/09nLcktOlac8aLgrWokoR6rZZRSIqAkjn24CcVj0b4ThsQMlD3Oq231dPFYahsPqhe16i9_rp_E=s88-c-k-c0x00ffffff-no-rj",
+                "channelId": "UC-c4v27-3H_rZJW_jk3jPJw"
+            },
+            "id": "LCC.EhwKGkNKZnB3b2VZcEpjREZYb1UxZ0FkWGlZU3JB",
+            "etag": "fJS8IxuEmRizbIZI4k4Kyw1RTX4"
+        },
+        {
+            "snippet": {
+                "type": "TEXT_MESSAGE_EVENT",
+                "publishedAt": "2026-10-06T00:58:59.756026+00:00",
+                "displayMessage": ":_wotagei::_wotagei::_wotagei:",
+                "hasDisplayContent": true,
+                "textMessageDetails": {
+                    "messageText": ":_wotagei::_wotagei::_wotagei:"
+                },
+                "liveChatId": "Cg0KC1pCb1RwODVsVFlzKicKGFVDY0hIa0o5OGVTZmE1YWowbWRUd3dMURILWkJvVHA4NWxUWXM",
+                "authorChannelId": "UC0PkJFQmvkDDotoNgY-DwDQ"
+            },
+            "authorDetails": {
+                "isVerified": false,
+                "isChatOwner": false,
+                "isChatSponsor": true,
+                "isChatModerator": false,
+                "channelUrl": "http://www.youtube.com/channel/UC0PkJFQmvkDDotoNgY-DwDQ",
+                "displayName": "@USSAnime2444",
+                "profileImageUrl": "https://yt3.ggpht.com/OBPpYxA6t2Lo1sl-Twh0ZXbtUCji3IhZHQaS9aPegm8vTqPWOrh5KgkrCKsJhOiHeNr3CuJIaA=s88-c-k-c0x00ffffff-no-rj",
+                "channelId": "UC0PkJFQmvkDDotoNgY-DwDQ"
+            },
+            "id": "LCC.EhwKGkNLekstb2VZcEpjREZjUEdQd1FkRWpnR3ZB",
+            "etag": "eWJcLJcOrqPHsRf_BNuWyJ99hBU"
+        },
+        {
+            "snippet": {
+                "type": "TEXT_MESSAGE_EVENT",
+                "publishedAt": "2026-10-06T00:59:05.440325+00:00",
+                "displayMessage": "kate is so pretty",
+                "hasDisplayContent": true,
+                "textMessageDetails": {
+                    "messageText": "kate is so pretty"
+                },
+                "liveChatId": "Cg0KC1pCb1RwODVsVFlzKicKGFVDY0hIa0o5OGVTZmE1YWowbWRUd3dMURILWkJvVHA4NWxUWXM",
+                "authorChannelId": "UCGeEMIGrEWAQUbSckIGOLtQ"
+            },
+            "authorDetails": {
+                "isVerified": false,
+                "isChatOwner": false,
+                "isChatSponsor": false,
+                "isChatModerator": false,
+                "channelUrl": "http://www.youtube.com/channel/UCGeEMIGrEWAQUbSckIGOLtQ",
+                "displayName": "@vharrrr",
+                "profileImageUrl": "https://yt3.ggpht.com/_hE0D8XNfqBjqQM7y4tofxU2w0qWeqzVfgNIxCPDpZ82-6WYiMiC-jJlGj5Z3TYPH2j7L26itJk=s88-c-k-c0x00ffffff-no-rj",
+                "channelId": "UCGeEMIGrEWAQUbSckIGOLtQ"
+            },
+            "id": "LCC.EhwKGkNMT3Mxb3FZcEpjREZVQURkZ1lkYXBJTHZR",
+            "etag": "K7S9kvZdLxSEgjbof5ula4kAPtM"
+        },
+        {
+            "snippet": {
+                "type": "TEXT_MESSAGE_EVENT",
+                "publishedAt": "2026-10-06T00:59:05.697586+00:00",
+                "displayMessage": "Give Minto TONE",
+                "hasDisplayContent": true,
+                "textMessageDetails": {
+                    "messageText": "Give Minto TONE"
+                },
+                "liveChatId": "Cg0KC1pCb1RwODVsVFlzKicKGFVDY0hIa0o5OGVTZmE1YWowbWRUd3dMURILWkJvVHA4NWxUWXM",
+                "authorChannelId": "UC97X48zyiyg6dSwYwJakq9w"
+            },
+            "authorDetails": {
+                "isVerified": false,
+                "isChatOwner": false,
+                "isChatSponsor": true,
+                "isChatModerator": false,
+                "channelUrl": "http://www.youtube.com/channel/UC97X48zyiyg6dSwYwJakq9w",
+                "displayName": "@Shvyr",
+                "profileImageUrl": "https://yt3.ggpht.com/C-5FRXNMBK2HcPTrNghsYWD337zrGFIy2wPlAqxMOdwhKkTLc5hSEh7zgdjDzpjnZgPxXobr=s88-c-k-c0x00ffffff-no-rj",
+                "channelId": "UC97X48zyiyg6dSwYwJakq9w"
+            },
+            "id": "LCC.EhwKGkNKdXg1WXFZcEpjREZZWHJQd1FkTlp3V2dB",
+            "etag": "zWBh-vJQ7WjdvlsVDAayyzD9rGI"
+        },
+        {
+            "snippet": {
+                "type": "TEXT_MESSAGE_EVENT",
+                "publishedAt": "2026-10-06T00:59:06.973285+00:00",
+                "displayMessage": "s true",
+                "hasDisplayContent": true,
+                "textMessageDetails": {
+                    "messageText": "s true"
+                },
+                "liveChatId": "Cg0KC1pCb1RwODVsVFlzKicKGFVDY0hIa0o5OGVTZmE1YWowbWRUd3dMURILWkJvVHA4NWxUWXM",
+                "authorChannelId": "UCSMQtefcWoJ1AUffevwJrlw"
+            },
+            "authorDetails": {
+                "isVerified": false,
+                "isChatOwner": false,
+                "isChatSponsor": true,
+                "isChatModerator": false,
+                "channelUrl": "http://www.youtube.com/channel/UCSMQtefcWoJ1AUffevwJrlw",
+                "displayName": "@Resting.Glitch.Face2629",
+                "profileImageUrl": "https://yt3.ggpht.com/fvrBmTG2ODAS3b5q1Cz91-aZdyET_qkcrj5bFOXNQNCBdO6f_2iUzzhYgVXPJqiS6zcxoU8Z=s88-c-k-c0x00ffffff-no-rj",
+                "channelId": "UCSMQtefcWoJ1AUffevwJrlw"
+            },
+            "id": "LCC.EhwKGkNOUEpzNHVZcEpjREZTcnFjZ2tkM0hrUlFB",
+            "etag": "lLGjh-1M0TVTi0gAByE092I16NQ"
+        },
+        {
+            "snippet": {
+                "type": "TEXT_MESSAGE_EVENT",
+                "publishedAt": "2026-10-06T00:59:10.788877+00:00",
+                "displayMessage": ":_penlight::_wispylaugh::_penlight:",
+                "hasDisplayContent": true,
+                "textMessageDetails": {
+                    "messageText": ":_penlight::_wispylaugh::_penlight:"
+                },
+                "liveChatId": "Cg0KC1pCb1RwODVsVFlzKicKGFVDY0hIa0o5OGVTZmE1YWowbWRUd3dMURILWkJvVHA4NWxUWXM",
+                "authorChannelId": "UCUamrT4zkBLNdXXBMfA-ljg"
+            },
+            "authorDetails": {
+                "isVerified": false,
+                "isChatOwner": false,
+                "isChatSponsor": true,
+                "isChatModerator": false,
+                "channelUrl": "http://www.youtube.com/channel/UCUamrT4zkBLNdXXBMfA-ljg",
+                "displayName": "@bozoranger5316",
+                "profileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_nQ_57V0EHKXdOq2yzmWwyHaC5I1WbqhA2aIol_k40=s88-c-k-c0x00ffffff-no-rj",
+                "channelId": "UCUamrT4zkBLNdXXBMfA-ljg"
+            },
+            "id": "LCC.EhwKGkNOX3FuSTJZcEpjREZmdmU1d01kTC1Nc0lB",
+            "etag": "zAAtO1wFyMQUX4D-kSaXAsnboUc"
+        },
+        {
+            "snippet": {
+                "type": "TEXT_MESSAGE_EVENT",
+                "publishedAt": "2026-10-06T00:59:14.104914+00:00",
+                "displayMessage": ":_laugh::_laugh:",
+                "hasDisplayContent": true,
+                "textMessageDetails": {
+                    "messageText": ":_laugh::_laugh:"
+                },
+                "liveChatId": "Cg0KC1pCb1RwODVsVFlzKicKGFVDY0hIa0o5OGVTZmE1YWowbWRUd3dMURILWkJvVHA4NWxUWXM",
+                "authorChannelId": "UCA85_etiBdD1WyxLfAFHAZg"
+            },
+            "authorDetails": {
+                "isVerified": false,
+                "isChatOwner": false,
+                "isChatSponsor": true,
+                "isChatModerator": false,
+                "channelUrl": "http://www.youtube.com/channel/UCA85_etiBdD1WyxLfAFHAZg",
+                "displayName": "@JayKriver",
+                "profileImageUrl": "https://yt3.ggpht.com/TlyGwlVBCSXCRgw-6_-I9aFPIMTC94U0s5Ev7_K6UhevF4EZgWUuIgw_oBntO90XNSFAV8s6kJ0=s88-c-k-c0x00ffffff-no-rj",
+                "channelId": "UCA85_etiBdD1WyxLfAFHAZg"
+            },
+            "id": "LCC.EhwKGkNOQ1A1bzZZcEpjREZYeElUQWdka3pZYmt3",
+            "etag": "lGJaxz5VvK1w4xJzMY-No2VYv5s"
+        },
+        {
+            "snippet": {
+                "type": "TEXT_MESSAGE_EVENT",
+                "publishedAt": "2026-10-06T00:59:15.579139+00:00",
+                "displayMessage": "67",
+                "hasDisplayContent": true,
+                "textMessageDetails": {
+                    "messageText": "67"
+                },
+                "liveChatId": "Cg0KC1pCb1RwODVsVFlzKicKGFVDY0hIa0o5OGVTZmE1YWowbWRUd3dMURILWkJvVHA4NWxUWXM",
+                "authorChannelId": "UCcrKxr9tJB32xAS1gOUjlvA"
+            },
+            "authorDetails": {
+                "isVerified": false,
+                "isChatOwner": false,
+                "isChatSponsor": false,
+                "isChatModerator": false,
+                "channelUrl": "http://www.youtube.com/channel/UCcrKxr9tJB32xAS1gOUjlvA",
+                "displayName": "@ScarLunacyAlter",
+                "profileImageUrl": "https://yt3.ggpht.com/GYPHvd-VzMSPIYP0keaiZz1cn9kTHvubBWM2RK-VCoWqc2gLM1LyOrmnrvIvrtkg-bsW1cXY7IU=s88-c-k-c0x00ffffff-no-rj",
+                "channelId": "UCcrKxr9tJB32xAS1gOUjlvA"
+            },
+            "id": "LCC.EhwKGkNPaml2NC1ZcEpjREZhYUV3Z0Vkb1ZnS25B",
+            "etag": "loSsZn46Viy8jPmWz1fwIMsdDjs"
+        },
+        {
+            "snippet": {
+                "type": "TEXT_MESSAGE_EVENT",
+                "publishedAt": "2026-10-06T00:59:16.01807+00:00",
+                "displayMessage": ":_wispylaugh::_wispylaugh::_wispylaugh:",
+                "hasDisplayContent": true,
+                "textMessageDetails": {
+                    "messageText": ":_wispylaugh::_wispylaugh::_wispylaugh:"
+                },
+                "liveChatId": "Cg0KC1pCb1RwODVsVFlzKicKGFVDY0hIa0o5OGVTZmE1YWowbWRUd3dMURILWkJvVHA4NWxUWXM",
+                "authorChannelId": "UCtp_DTx_1vIq6B8KG-87UIg"
+            },
+            "authorDetails": {
+                "isVerified": false,
+                "isChatOwner": false,
+                "isChatSponsor": true,
+                "isChatModerator": false,
+                "channelUrl": "http://www.youtube.com/channel/UCtp_DTx_1vIq6B8KG-87UIg",
+                "displayName": "@gerferfeferkifem62",
+                "profileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_nD3BS00x_EFtQpEXIiG1wLn9PdiOpOBVbmITXmQeVDZ4vI_HH0sbpxukaeTVzDY0wBmg=s88-c-k-c0x00ffffff-no-rj",
+                "channelId": "UCtp_DTx_1vIq6B8KG-87UIg"
+            },
+            "id": "LCC.EhwKGkNQVEkyNC1ZcEpjREZYN1hMUUFkVVgwYmFn",
+            "etag": "PLiZ6ngFbs_ZpsEpth5OD-5PwTQ"
+        },
+        {
+            "snippet": {
+                "type": "TEXT_MESSAGE_EVENT",
+                "publishedAt": "2026-10-06T00:59:16.225126+00:00",
+                "displayMessage": "lol nice model",
+                "hasDisplayContent": true,
+                "textMessageDetails": {
+                    "messageText": "lol nice model"
+                },
+                "liveChatId": "Cg0KC1pCb1RwODVsVFlzKicKGFVDY0hIa0o5OGVTZmE1YWowbWRUd3dMURILWkJvVHA4NWxUWXM",
+                "authorChannelId": "UCRwROawv9t3usA2xl5L8Z0g"
+            },
+            "authorDetails": {
+                "isVerified": false,
+                "isChatOwner": false,
+                "isChatSponsor": false,
+                "isChatModerator": false,
+                "channelUrl": "http://www.youtube.com/channel/UCRwROawv9t3usA2xl5L8Z0g",
+                "displayName": "@The_Primary_Axiom",
+                "profileImageUrl": "https://yt3.ggpht.com/Kr5OVdF3olqmLW4A1q7rL3E-oAz0IdAW72vY37fVra1k06alM9jKiSAjFEQwp4mTv9GIioBWcw=s88-c-k-c0x00ffffff-no-rj",
+                "channelId": "UCRwROawv9t3usA2xl5L8Z0g"
+            },
+            "id": "LCC.EhwKGkNQNlE2SS1ZcEpjREZkX2VjZ2tkSHpvUHFn",
+            "etag": "nzf39kBjj8R4P_DuaylvNFJo1SM"
+        },
+        {
+            "snippet": {
+                "type": "TEXT_MESSAGE_EVENT",
+                "publishedAt": "2026-10-06T00:59:17.667896+00:00",
+                "displayMessage": "it takes 2",
+                "hasDisplayContent": true,
+                "textMessageDetails": {
+                    "messageText": "it takes 2"
+                },
+                "liveChatId": "Cg0KC1pCb1RwODVsVFlzKicKGFVDY0hIa0o5OGVTZmE1YWowbWRUd3dMURILWkJvVHA4NWxUWXM",
+                "authorChannelId": "UCo3Ck0UPZFXyOEOSI7Tq7iw"
+            },
+            "authorDetails": {
+                "isVerified": false,
+                "isChatOwner": false,
+                "isChatSponsor": false,
+                "isChatModerator": false,
+                "channelUrl": "http://www.youtube.com/channel/UCo3Ck0UPZFXyOEOSI7Tq7iw",
+                "displayName": "@reloc9394",
+                "profileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_kdni7ckmSakrQGCVFxhI78wAX2IBjNYt4_MIvGRMqeYVI=s88-c-k-c0x00ffffff-no-rj",
+                "channelId": "UCo3Ck0UPZFXyOEOSI7Tq7iw"
+            },
+            "id": "LCC.EhwKGkNPcXd3SkNZcEpjREZjUlVUQWdkUFhra21R",
+            "etag": "0GfcVikPdXnytbe0K_zh4aq_Lbc"
+        },
+        {
+            "snippet": {
+                "type": "TEXT_MESSAGE_EVENT",
+                "publishedAt": "2026-10-06T00:59:18.638467+00:00",
+                "displayMessage": "beeg bomber",
+                "hasDisplayContent": true,
+                "textMessageDetails": {
+                    "messageText": "beeg bomber"
+                },
+                "liveChatId": "Cg0KC1pCb1RwODVsVFlzKicKGFVDY0hIa0o5OGVTZmE1YWowbWRUd3dMURILWkJvVHA4NWxUWXM",
+                "authorChannelId": "UCpkRxbmQp8TLMu4htbCUi8A"
+            },
+            "authorDetails": {
+                "isVerified": false,
+                "isChatOwner": false,
+                "isChatSponsor": false,
+                "isChatModerator": false,
+                "channelUrl": "http://www.youtube.com/channel/UCpkRxbmQp8TLMu4htbCUi8A",
+                "displayName": "@gl.g.8318",
+                "profileImageUrl": "https://yt3.ggpht.com/nQpWaFg1ljWEb9jbWH8Tpb8HjTxhrzSVJPftdI_u0wOeEPAT4iDvy2-HjR29fhKmfdlp2c_u6g=s88-c-k-c0x00ffffff-no-rj",
+                "channelId": "UCpkRxbmQp8TLMu4htbCUi8A"
+            },
+            "id": "LCC.EhwKGkNMUEwtNUNZcEpjREZRQjlUQWdkamxrOHJn",
+            "etag": "gW4zoS4u-AbKII8GgMDFgSxxSq4"
+        },
+        {
+            "snippet": {
+                "type": "TEXT_MESSAGE_EVENT",
+                "publishedAt": "2026-10-06T00:59:18.712368+00:00",
+                "displayMessage": "Minto's got TONE! Take the shot!",
+                "hasDisplayContent": true,
+                "textMessageDetails": {
+                    "messageText": "Minto's got TONE! Take the shot!"
+                },
+                "liveChatId": "Cg0KC1pCb1RwODVsVFlzKicKGFVDY0hIa0o5OGVTZmE1YWowbWRUd3dMURILWkJvVHA4NWxUWXM",
+                "authorChannelId": "UC97X48zyiyg6dSwYwJakq9w"
+            },
+            "authorDetails": {
+                "isVerified": false,
+                "isChatOwner": false,
+                "isChatSponsor": true,
+                "isChatModerator": false,
+                "channelUrl": "http://www.youtube.com/channel/UC97X48zyiyg6dSwYwJakq9w",
+                "displayName": "@Shvyr",
+                "profileImageUrl": "https://yt3.ggpht.com/C-5FRXNMBK2HcPTrNghsYWD337zrGFIy2wPlAqxMOdwhKkTLc5hSEh7zgdjDzpjnZgPxXobr=s88-c-k-c0x00ffffff-no-rj",
+                "channelId": "UC97X48zyiyg6dSwYwJakq9w"
+            },
+            "id": "LCC.EhwKGkNKQ0xnSkdZcEpjREZXeldjZ2tkT1hnUGNB",
+            "etag": "q9nA3OqgFdIo9TwVq--P5exNIPQ"
+        },
+        {
+            "snippet": {
+                "type": "TEXT_MESSAGE_EVENT",
+                "publishedAt": "2026-10-06T00:59:20.288061+00:00",
+                "displayMessage": "Multiple missiles",
+                "hasDisplayContent": true,
+                "textMessageDetails": {
+                    "messageText": "Multiple missiles"
+                },
+                "liveChatId": "Cg0KC1pCb1RwODVsVFlzKicKGFVDY0hIa0o5OGVTZmE1YWowbWRUd3dMURILWkJvVHA4NWxUWXM",
+                "authorChannelId": "UCyEPl5v9BakkZx2McppNMJA"
+            },
+            "authorDetails": {
+                "isVerified": false,
+                "isChatOwner": false,
+                "isChatSponsor": false,
+                "isChatModerator": false,
+                "channelUrl": "http://www.youtube.com/channel/UCyEPl5v9BakkZx2McppNMJA",
+                "displayName": "@ethn_d",
+                "profileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_m2gSlRZ8pnKJyCcGdJLGFQ9gRQp0EvqSYZSulf8MYqwOgLgQf6khYraMqkL0JYWSFS6w=s88-c-k-c0x00ffffff-no-rj",
+                "channelId": "UCyEPl5v9BakkZx2McppNMJA"
+            },
+            "id": "LCC.EhwKGkNQejUzNUdZcEpjREZkRkpUQWdkUWx3TkR3",
+            "etag": "yMMHvDaxQMRKtDYIp3dd3pkI0xI"
+        }
+    ],
+    "nextPageToken": "GL3e4JGYpJcD"
+}

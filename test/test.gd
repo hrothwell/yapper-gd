@@ -22,5 +22,3 @@ func _load_api_key():
 		var dict = JSON.parse_string(auth_file.get_as_text()) as Dictionary
 		_api_key = dict["key"]
 	
-	var details: AuthorDetails = AuthorDetails.new()
-	details.Data
