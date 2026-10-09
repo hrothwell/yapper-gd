@@ -1,3 +1,4 @@
+# TODO remove Gut / have the tests in a separate package so it isn't bundled together
 extends GutTest
 
 func _base_assert(msg: LiveChatMessage):
