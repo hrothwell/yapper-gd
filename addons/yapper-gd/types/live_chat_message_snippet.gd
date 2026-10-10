@@ -1,7 +1,6 @@
-## Youtube.Api.V3.LiveChatMessageSnippet
+## Use [type] to determine which type this Snippet is and thus what details to fetch or expect
 class_name LiveChatMessageSnippet extends RefCounted
 
-## Youtube.Api.V3.LiveChatMessageSnippet.Types.TypeWrapper.Types.Type
 enum Type {
 	INVALID_TYPE,
 	TEXT_MESSAGE_EVENT,
@@ -21,7 +20,6 @@ enum Type {
 	GIFT_EVENT
 }
 
-## Youtube.Api.V3.DisplayedContentOneofCase
 enum _DisplayedContentOneofCase {
 	NONE,
 	TEXT_MESSAGE_DETAILS,
@@ -51,7 +49,7 @@ var display_message: String
 
 var _data: Variant
 
-# Only one of these should be set at a time based on the 
+#region details
 var text_message_details: LiveChatTextMessageDetails:
 	get():
 		if _displayed_content_type == _DisplayedContentOneofCase.TEXT_MESSAGE_DETAILS:
@@ -181,6 +179,7 @@ var gift_details: LiveChatGiftDetails:
 			_displayed_content_type = _DisplayedContentOneofCase.NONE
 		else:
 			_displayed_content_type = _DisplayedContentOneofCase.GIFT_DETAILS
+#endregion
 
 static func from_dict(dict: Dictionary) -> LiveChatMessageSnippet:
 	var result = LiveChatMessageSnippet.new()

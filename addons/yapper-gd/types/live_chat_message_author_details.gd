@@ -1,4 +1,3 @@
-## subset of Youtube.Api.V3.LiveChatMessageAuthorDetails
 class_name LiveChatMessageAuthorDetails extends RefCounted
 
 var display_name: String

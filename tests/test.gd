@@ -16,7 +16,7 @@ func _start_polling(response: GetLiveChatId.Response):
 	chat_stream.Start()
 	chat_stream.MessageReceived.connect(func(json: String): 
 		print(json)
-		print("deserialized: ", str(LiveChatDeserializer.deserialize_message(json)))
+		print("deserialized: ", str(LiveChatMessage.from_json(json)))
 	)
 
 func _load_api_key(): 

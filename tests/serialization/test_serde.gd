@@ -15,7 +15,7 @@ func _base_assert(msg: LiveChatMessage):
 func test_deserializes_text_message_details():
 	var generator = TextMessageChatGenerator.new()
 	var json = generator.Get()
-	var result = LiveChatDeserializer.deserialize_message(json)
+	var result = LiveChatMessage.from_json(json)
 	_base_assert(result)
 	assert_eq(result.snippet.type, LiveChatMessageSnippet.Type.TEXT_MESSAGE_EVENT)
 	assert_eq(result.snippet.text_message_details.message_text, "message text")
@@ -23,7 +23,7 @@ func test_deserializes_text_message_details():
 func test_deserializes_super_chat_details():
 	var generator = SuperChatGenerator.new()
 	var json = generator.Get()
-	var result = LiveChatDeserializer.deserialize_message(json)
+	var result = LiveChatMessage.from_json(json)
 	_base_assert(result)
 	assert_eq(result.snippet.type, LiveChatMessageSnippet.Type.SUPER_CHAT_EVENT)
 	assert_eq(result.snippet.super_chat_details.amount_micros, 100)
@@ -35,7 +35,7 @@ func test_deserializes_super_chat_details():
 func test_deserializes_user_ban_details():
 	var generator = UserBannedDetailsGenerator.new()
 	var json = generator.Get()
-	var result = LiveChatDeserializer.deserialize_message(json)
+	var result = LiveChatMessage.from_json(json)
 	_base_assert(result)
 	assert_eq(result.snippet.type, LiveChatMessageSnippet.Type.USER_BANNED_EVENT)
 	assert_eq(result.snippet.user_banned_details.banned_user_details.channel_id, "channel id")
@@ -48,7 +48,7 @@ func test_deserializes_user_ban_details():
 func test_deserializes_super_sticker_details():
 	var generator = SuperStickerDetailsGenerator.new()
 	var json = generator.Get()
-	var result = LiveChatDeserializer.deserialize_message(json)
+	var result = LiveChatMessage.from_json(json)
 	_base_assert(result)
 	assert_eq(result.snippet.type, LiveChatMessageSnippet.Type.SUPER_STICKER_EVENT)
 	assert_eq(result.snippet.super_sticker_details.super_sticker_metadata.sticker_id, "sticker id")
@@ -62,7 +62,7 @@ func test_deserializes_super_sticker_details():
 func test_deserializes_new_sponsor_details():
 	var generator = NewSponsorDetailsGenerator.new()
 	var json = generator.Get()
-	var result = LiveChatDeserializer.deserialize_message(json)
+	var result = LiveChatMessage.from_json(json)
 	_base_assert(result)
 	assert_eq(result.snippet.type, LiveChatMessageSnippet.Type.NEW_SPONSOR_EVENT)
 	assert_eq(result.snippet.new_sponsor_details.member_level_name, "member level name")
@@ -71,7 +71,7 @@ func test_deserializes_new_sponsor_details():
 func test_deserializes_member_milestone_details():
 	var generator = MemberMilestoneDetailsGenerator.new()
 	var json = generator.Get()
-	var result = LiveChatDeserializer.deserialize_message(json)
+	var result = LiveChatMessage.from_json(json)
 	_base_assert(result)
 	assert_eq(result.snippet.type, LiveChatMessageSnippet.Type.MEMBER_MILESTONE_CHAT_EVENT)
 	assert_eq(result.snippet.member_milestone_chat_details.member_level_name, "member level name")
@@ -81,7 +81,7 @@ func test_deserializes_member_milestone_details():
 func test_deserializes_membership_gifting_details():
 	var generator = MembershipGiftingDetailsGenerator.new()
 	var json = generator.Get()
-	var result = LiveChatDeserializer.deserialize_message(json)
+	var result = LiveChatMessage.from_json(json)
 	_base_assert(result)
 	assert_eq(result.snippet.type, LiveChatMessageSnippet.Type.MEMBERSHIP_GIFTING_EVENT)
 	assert_eq(result.snippet.membership_gifting_details.gift_memberships_count, 1)
@@ -90,7 +90,7 @@ func test_deserializes_membership_gifting_details():
 func test_deserializes_gift_membership_received_details():
 	var generator = GiftMembershipReceivedDetailsGenerator.new()
 	var json = generator.Get()
-	var result = LiveChatDeserializer.deserialize_message(json)
+	var result = LiveChatMessage.from_json(json)
 	_base_assert(result)
 	assert_eq(result.snippet.type, LiveChatMessageSnippet.Type.GIFT_MEMBERSHIP_RECEIVED_EVENT)
 	assert_eq(result.snippet.gift_membership_received_details.member_level_name, "member level name")
@@ -100,7 +100,7 @@ func test_deserializes_gift_membership_received_details():
 func test_deserializes_poll_details():
 	var generator = PollDetailsGenerator.new()
 	var json = generator.Get()
-	var result = LiveChatDeserializer.deserialize_message(json)
+	var result = LiveChatMessage.from_json(json)
 	_base_assert(result)
 	assert_eq(result.snippet.type, LiveChatMessageSnippet.Type.POLL_EVENT)
 	assert_eq(result.snippet.poll_details.metadata.question_text, "question text")
@@ -114,7 +114,7 @@ func test_deserializes_poll_details():
 func test_deserializes_gift_details():
 	var generator = GiftDetailsGenerator.new()
 	var json = generator.Get()
-	var result = LiveChatDeserializer.deserialize_message(json)
+	var result = LiveChatMessage.from_json(json)
 	_base_assert(result)
 	assert_eq(result.snippet.type, LiveChatMessageSnippet.Type.GIFT_EVENT)
 	assert_eq(result.snippet.gift_details.gift_name, "gift name")

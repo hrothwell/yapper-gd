@@ -1,4 +1,3 @@
-## Youtube.Api.V3.LiveChatTextMessageDetails
 class_name LiveChatTextMessageDetails extends RefCounted
 
 var message_text: String

@@ -30,7 +30,6 @@ func _parse_response(result: int, response_code: int, headers: PackedStringArray
 	var json := body.get_string_from_utf8()
 	var d: Dictionary = JSON.parse_string(json)
 	var response := Response.new()
-	# TODO this cannot stay...
 	response.live_chat_id = d["items"][0]["liveStreamingDetails"]["activeLiveChatId"]
 	complete.emit(response)
 	_active_request.queue_free()
