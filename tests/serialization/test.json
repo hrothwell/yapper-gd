@@ -1,0 +1,22 @@
+{
+	"snippet": {
+		"publishedAt": "10/8/2026 9:44:56 PM",
+		"displayMessage": "display message",
+		"hasDisplayContent": true,
+		"superChatDetails": {
+			"amountMicros": "100",
+			"currency": "currency",
+			"amountDisplayString": "display string",
+			"userComment": "user comment",
+			"tier": 1.0
+		},
+		"liveChatId": "live chat id",
+		"authorChannelId": "author channel id"
+	},
+	"authorDetails": {
+		"displayName": "display name",
+		"profileImageUrl": "profile image url"
+	},
+	"id": "id",
+	"etag": "etag"
+}
