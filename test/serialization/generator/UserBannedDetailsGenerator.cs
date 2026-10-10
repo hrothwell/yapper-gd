@@ -1,17 +1,16 @@
 using Godot;
-using Google.Protobuf;
-using System;
 using Youtube.Api.V3;
 
 [GlobalClass]
 public partial class UserBannedDetailsGenerator : LiveChatMessageGenerator
 {
-	override public String Get()
+	protected override LiveChatMessageSnippet.Types.TypeWrapper.Types.Type EventType()
+    {
+        return LiveChatMessageSnippet.Types.TypeWrapper.Types.Type.UserBannedEvent;
+    }
+	protected override LiveChatMessage Fill(LiveChatMessage m)
 	{
-		LiveChatMessage msg = Create();
-		msg.Snippet.Type = LiveChatMessageSnippet.Types.TypeWrapper.Types.Type.UserBannedEvent;
-
-		msg.Snippet.UserBannedDetails = new LiveChatUserBannedMessageDetails()
+		m.Snippet.UserBannedDetails = new LiveChatUserBannedMessageDetails()
 		{
 		  BannedUserDetails = new ChannelProfileDetails()
           {
@@ -24,6 +23,6 @@ public partial class UserBannedDetailsGenerator : LiveChatMessageGenerator
           BanDurationSeconds = 100
 		};
 		
-		return JsonFormatter.Default.Format(msg);
+		return m;
 	}
 }

@@ -2,7 +2,7 @@ class_name LiveChatMemberMilestoneChatDetails extends RefCounted
 
 var member_level_name: String
 var member_month: int
-var user_comment: int
+var user_comment: String
 
 static func from_dict(dict: Dictionary) -> LiveChatMemberMilestoneChatDetails:
 	var result := LiveChatMemberMilestoneChatDetails.new()

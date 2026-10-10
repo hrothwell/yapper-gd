@@ -13,8 +13,7 @@ static func from_dict(dict: Dictionary) -> LiveChatPollDetails:
 	var result := LiveChatPollDetails.new()
 	if dict.has("metadata"):
 		result.metadata = PollMetadata.from_dict(dict.get("metadata"))
-	var status = PollStatus.keys().find(dict.get("status", "UNKNOWN"))
-	result.status = PollStatus.get(status) if status > -1 else PollStatus.UNKNOWN
+	result.status = PollStatus.get(dict.get("status", "UNKNOWN"))
 	return result
 
 class PollMetadata extends RefCounted:
@@ -24,8 +23,11 @@ class PollMetadata extends RefCounted:
 		var result := PollMetadata.new()
 		result.question_text = dict.get("questionText", "")
 		if dict.has("options"):
-			var arr: Array[Dictionary] = dict.get("options")
-			result.options = arr.map(PollOption.from_dict)
+			var arr: Array = dict.get("options")
+			var options: Array[PollOption] = []
+			for o in arr:
+				options.append(PollOption.from_dict(o))
+			result.options = options
 		return result
 
 class PollOption extends RefCounted:

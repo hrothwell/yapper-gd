@@ -1,16 +1,29 @@
 using Godot;
+using Google.Protobuf;
 using System;
 using Youtube.Api.V3;
 
 // Shared data for tests, sets root level data of message
 public partial class LiveChatMessageGenerator : RefCounted
 {
-	virtual public String Get()
+	public string Get()
 	{
-		return "override me";
+		LiveChatMessage m = Init();
+		m = Fill(m);
+		return JsonFormatter.Default.Format(m);
 	}
 
-	protected LiveChatMessage Create()
+	virtual protected LiveChatMessage Fill(LiveChatMessage m)
+	{
+		return m;
+	}
+
+	protected virtual LiveChatMessageSnippet.Types.TypeWrapper.Types.Type EventType()
+	{
+		return LiveChatMessageSnippet.Types.TypeWrapper.Types.Type.InvalidType;
+	}
+
+	private LiveChatMessage Init()
 	{
 		LiveChatMessage msg = new LiveChatMessage();
 		msg.Id = "id";
@@ -19,6 +32,7 @@ public partial class LiveChatMessageGenerator : RefCounted
 
 		msg.Snippet = new LiveChatMessageSnippet()
 		{
+			Type = EventType(),
 			LiveChatId = "live chat id",
 			AuthorChannelId = "author channel id",
 			PublishedAt = DateTime.Now.ToString(),
@@ -29,7 +43,7 @@ public partial class LiveChatMessageGenerator : RefCounted
 		return msg;
 	}
 
-	protected LiveChatMessageAuthorDetails GetAuthorDetails()
+	private LiveChatMessageAuthorDetails GetAuthorDetails()
 	{
 		LiveChatMessageAuthorDetails deatils = new LiveChatMessageAuthorDetails();
 		deatils.DisplayName = "display name";

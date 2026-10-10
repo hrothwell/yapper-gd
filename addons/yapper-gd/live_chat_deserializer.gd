@@ -1,4 +1,4 @@
-class_name LiveChatSerializer extends RefCounted
+class_name LiveChatDeserializer extends RefCounted
 
 static func deserialize_message(json: String) -> LiveChatMessage:
 	var dict: Dictionary = JSON.parse_string(json)
