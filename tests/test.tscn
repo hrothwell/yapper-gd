@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://cuvs53jh1de6i"]
 
-[ext_resource type="Script" uid="uid://cjqem2gt4hoc1" path="res://test/test.gd" id="1_8a8pi"]
+[ext_resource type="Script" uid="uid://cjqem2gt4hoc1" path="res://tests/test.gd" id="1_8a8pi"]
 [ext_resource type="Script" uid="uid://dpbla7217im3w" path="res://addons/yapper-gd/YouTubeChatStream.cs" id="2_65205"]
 
 [node name="Test" type="Node2D" unique_id=342773095]
