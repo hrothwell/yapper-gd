@@ -5,7 +5,7 @@ yapper-gd is a small addon for the Godot game engine that enables streaming of a
 There seem to exist many instances using what is known as "inner-tube" - YouTube's own internal / undocumented APIs - this focuses on a more intended and well documented route. However, this does come with the unfortunate need of an API key and a daily quota limit. Quota's can be increased as necessary, however, yapper-gd is intended (or rather suggested) to work using per-user API keys rather than per-game API keys. This puts the processing onto the user machine but also relies on a user setting up keys. 
 
 ## Install
-1. copy contents of `addons` or download via asset store (TBD)
+1. copy contents of `addons/yapper-gd` or download via asset store (TBD)
 2. copy `ItemGroup` dependencies of `yapper-gd.csproj` into desired project 
 3. `dotnet build` or build within Godot editor
 
