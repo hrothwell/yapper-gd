@@ -6,7 +6,6 @@ using Grpc.Net.Client;
 using Youtube.Api.V3;
 using Grpc.Core;
 using Google.Protobuf;
-using System.Runtime.CompilerServices;
 
 /**
 	YouTube API refernce: https://developers.google.com/youtube/v3/live/docs/liveChatMessages/streamList
@@ -45,8 +44,6 @@ public partial class YouTubeChatStream : Node
 	private Task _running_task = null;
 
 	private bool _running = false;
-
-	// private var _live_chat_gd = GD.Load<GDScript>("res://addons/yapper-gd/types")
 
 	public void Start()
 	{

@@ -118,6 +118,7 @@ func test_deserializes_gift_details():
 	_base_assert(result)
 	assert_eq(result.snippet.type, LiveChatMessageSnippet.Type.GIFT_EVENT)
 	assert_eq(result.snippet.gift_details.gift_name, "gift name")
+	assert_eq(result.snippet.gift_details.gift_duration_seconds, 1000)
 	assert_eq(result.snippet.gift_details.jewels_amount, 1)
 	assert_eq(result.snippet.gift_details.gift_url, "gift url")
 	assert_eq(result.snippet.gift_details.alt_text, "alt text")

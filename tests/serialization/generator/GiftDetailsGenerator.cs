@@ -14,6 +14,11 @@ public partial class GiftDetailsGenerator : LiveChatMessageGenerator
 		m.Snippet.GiftDetails = new LiveChatGiftDetails()
         {
             GiftName = "gift name",
+            GiftDuration = new Google.Protobuf.WellKnownTypes.Duration()
+            {
+                Seconds = 1000,
+                Nanos = 200
+            },
             JewelsAmount = 1,
             GiftUrl = "gift url",
             AltText = "alt text",
